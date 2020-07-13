@@ -1,0 +1,28 @@
+using systems;
+namespace largest
+{
+class program
+{
+static void Main(string[]args)
+{
+int number1,number2,number3;
+Console.Write("Enter 1st number");
+number1=convert.ToInt32(console.Redaline());
+console.Write("Enter 2nd number");
+number2=convert.ToInt32(console.Redaline());
+Console.Write("Enter 3rd number");
+number3=convert.ToInt32(console.Redaline());
+
+if(number1>number2)
+{
+Console.Write("greatest number is " +number1);
+}
+else if(number2>number3)
+{
+Console.Write("greatest number is " +number2);
+}
+else
+{
+Console.WriteLine("greatest number is " +number3);
+}
+}

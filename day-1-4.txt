@@ -1,0 +1,21 @@
+using System;  
+namespace swap  
+ {
+class program
+{  
+static void Main(string[] args)  
+{  
+int number1,number2,swap;
+      
+Console.Write("Enter 1st Number: ");      
+number= convert.ToInt32(Console.ReadLine());
+     
+console.Write("enter the 2nd number);
+number2=convert.ToInt32(console.Readline());
+
+swap=number1;
+number1=number2;
+number2=swap;
+console.write("afterswap a="+a+"b="+b);    
+}  
+}

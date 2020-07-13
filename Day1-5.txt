@@ -1,0 +1,21 @@
+using System;
+namespace sum {
+  {
+class program
+{
+static void main(string[]args)
+{
+
+int i,sum=0,number;
+Console.Write("enter a number");
+ number = Convert.ToInt32(Console.ReadLine());
+
+while (nnumber>0) {
+{
+i=number%10;
+sum=sum+i;
+number=number/10;
+}
+Console.WriteLine("Sum of digits of integer: " + sum);
+}
+}

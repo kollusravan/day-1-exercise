@@ -1,0 +1,17 @@
+
+using systems
+namespace converting
+{
+class Program
+{
+static void Main(string[] args)
+{
+double celsius, fahrenhit;
+Console.WriteLine("Enter the Temperature in Celsius");
+double celsius = convert.ToInt32(Console.ReadLine());
+fahrenhit = (celsius * 9)/5+32;
+Console.WriteLine("Temperature in Fahrenheit is: " + faren);
+Console.ReadLine();
+}
+}
+}
